@@ -1,0 +1,26 @@
+<CCPPackage>
+  <CreatePackage>
+    <packageName>package-name-here</packageName>
+    <outputLocation>/path/to/output</outputLocation>
+    <is64Bit>true</is64Bit>
+    <customerType>type</customerType>
+    <organizationName>org-name</organizationName>
+    <matchOSLanguage>true</matchOSLanguage>
+    <rumEnabled>true</rumEnabled>
+    <updatesEnabled>false</updatesEnabled>
+    <appsPanelEnabled>false</appsPanelEnabled>
+    <adminPrivilegesEnabled>false</adminPrivilegesEnabled>
+    <serialNumber>serial-number-here</serialNumber>
+    <ProductCategory>Custom</ProductCategory>
+    <IncludeUpdates>true</IncludeUpdates>
+    <Language>
+      <id>en_US</id>
+    </Language>
+    <Products>
+        <Product>
+            <sapCode>KBRG</sapCode>
+            <version>7.0</version>
+        </Product>
+    </Products>
+  </CreatePackage>
+</CCPPackage>
